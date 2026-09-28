@@ -11,6 +11,11 @@
     <header>
       <h1>Daily Talk Guide</h1>
       <p>Two new lines a day — for practice, not just reading</p>
+      <div class="auth-bar">
+        <button id="signInBtn">Sign in with Google</button>
+        <span id="userName"></span>
+        <button id="signOutBtn" hidden>Sign out</button>
+      </div>
     </header>
 
     <div class="stats">
@@ -29,5 +34,6 @@
   </div>
 
   <script src="app.js"></script>
+  <script type="module" src="auth.js"></script>
 </body>
 </html>
